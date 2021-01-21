@@ -1,12 +1,12 @@
 import './App.css';
-import Card from './Card';
+import CardsList from './CardsList';
 
 const App = () => {
   return (
     <div className="App bg-gray-100">
       
 
-      <header className="px-7">
+      <header className="px-7 mb-7">
       
         <h1 className="text-center text-4xl text-gray-500">Welcome</h1>
         
@@ -27,7 +27,7 @@ const App = () => {
       
 
       <main className="px-7">
-        <Card/>
+        <CardsList/>
       </main>
       
 

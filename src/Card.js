@@ -3,7 +3,7 @@ import card_image from "./imgs/card_image.jpg";
 const Card =() => {
  return(
 
- 	<div className="bg-white overflow-hidden shadow-md rounded p-2.5">
+ 	<div className="bg-white overflow-hidden shadow-md hover:shadow-lg rounded p-2.5 max-w-md">
  		
  		{/* CARD HEADER */}
  		<div className="flex space-between">
